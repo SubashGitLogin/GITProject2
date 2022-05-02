@@ -2,7 +2,7 @@ package org.example;
 
 public class Sample {
 
-	int a=100;
+	static int a=100;
 	int b=50;
 	
 private void empID() {
@@ -18,6 +18,8 @@ public static void main(String[] args) {
 	Sample s=new Sample();
 	s.empID();
 	s.empName();
+	s.companyName();
+	System.out.println("Before value :"+a);
 	
 	
 	
