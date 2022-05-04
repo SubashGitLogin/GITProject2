@@ -4,6 +4,7 @@ public class Sample {
 
 	static int a=100;
 	int b=50;
+	static int c=10;
 	
 private void empID() {
 	System.out.println("Emp ID :555");
@@ -20,6 +21,7 @@ public static void main(String[] args) {
 	s.empName();
 	s.companyName();
 	System.out.println("Before value :"+a);
+	System.out.println("Before c vale :"+c);
 	
 	
 	
