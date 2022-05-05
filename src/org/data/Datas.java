@@ -2,20 +2,20 @@ package org.data;
 
 public class Datas {
 
-	private void emp() {
-		System.out.println("Emp NAme : Subash");
-
-	}
-	private void emp(int id) {
+	private void empId(int id) {
 		System.out.println("Emp ID :"+id);
-
-	}private void salary(double sal) {
+	}
+	private void empName(String name) {
+		System.out.println("Emp Name :"+name);
+	}
+	private void salary(double sal) {
 		System.out.println("Salary :"+sal);
 	}
 	public static void main(String[] args) {
 		Datas d=new Datas();
-		d.emp();
-		d.emp(555);
+
+		d.empId(555);
+		d.empName("Subash");
 		d.salary(65432643.2351);
 	}
 }
